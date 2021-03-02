@@ -1,0 +1,31 @@
+
+    .box {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .btn1 {
+        width: 100px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        background-color: red;
+        color: #fff;
+        font-weight: bolder;
+        border-radius: 5px;
+        margin: 10px;
+        cursor: pointer;
+    }
+
+    .btn2 {
+        width: 100px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        background-color: yellowgreen;
+        color: #fff;
+        font-weight: bolder;
+        border-radius: 5px;
+        margin: 10px;
+        cursor: pointer;
+    }
