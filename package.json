@@ -1,0 +1,25 @@
+{
+  "name": "html-reset",
+  "version": "1.0.3",
+  "description": "编译单个html文件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+  },
+  "dependencies": {
+    "core-js": "^3.9.1",
+    "@babel/core": "^7.13.8",
+    "@babel/preset-env": "^7.13.9",
+    "@babel/runtime-corejs3": "^7.13.9",
+    "autoprefixer": "^10.2.4",
+    "browserify": "^17.0.0",
+    "postcss": "^8.2.6",
+    "precss": "^4.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+ 
+}

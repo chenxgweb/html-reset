@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+</head>
+
+<style>
+    .box {
+        display: flex;
+    }
+    .btn1 {
+        width: 100px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        background-color: red;
+        color: #fff;
+        font-weight: bolder;
+        border-radius: 5px;
+        margin: 10px;
+        cursor: pointer;
+    }
+
+    .btn2 {
+        width: 100px;
+        height: 30px;
+        line-height: 30px;
+        text-align: center;
+        background-color: yellowgreen;
+        color: #fff;
+        font-weight: bolder;
+        border-radius: 5px;
+        margin: 10px;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <div class="box">
+        <div class="btn1" id="btn">按钮1</div>
+        <div class="btn2" id="btn2" >按钮2</div>
+    </div>
+</body>
+<script>
+
+    window.onload = function () {
+        let a = 0;
+        console.log(a)
+        let arr = [1, 2, 3, 4, 5, 4, 5]
+        let newArr = Array.from(new Set(arr))
+
+        console.log(newArr)
+
+        let btn = document.getElementById('btn2')
+        btn.onclick = function (){
+            alert(2)
+        }
+
+    }
+
+    
+
+
+</script>
+
+
+</html>
